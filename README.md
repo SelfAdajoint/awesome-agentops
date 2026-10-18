@@ -163,6 +163,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner and red-teaming tool.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Testing and guardrails for agent behaviour and tool use.
 - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
+- [Aident Loadout](https://docs.aident.ai/loadout/overview) - Remote MCP server and CLI that brokers agent access to connected apps from a credential vault, so agents receive connection status rather than passwords or API keys, and records each action's status, source, and cost in an audit log. ([Vault and Audit docs](https://docs.aident.ai/loadout/vault-and-audit))
 
 
 Operational topics to cover in production reviews:
