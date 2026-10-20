@@ -143,6 +143,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Phoenix Tracing](https://docs.arize.com/phoenix/tracing) - OpenTelemetry-based tracing for LLM application debugging.
 - [Weave Tracing](https://docs.wandb.ai/weave) - Tracing and interactive debugging for model and agent workflows.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI and report generator for auditing AI coding-agent session logs, cost, tokens, latency, tool failures, health, and regression checks.
+- [Transect](https://github.com/AI-Safety-Institute/transect) - Transcript analysis for long-horizon agent evaluations that places events, token use, sub-agent activity, and LLM-judge behaviour labels on a turn-based timeline, with judge-disagreement flags and links back to the source transcript.
 
 ## Guardrails and Runtime Controls
 
