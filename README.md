@@ -302,6 +302,7 @@ Agent-specific signals worth tracking:
 - [NIST AI RMF Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) - Practical guide for applying the NIST AI Risk Management Framework.
 - [Partnership on AI: AI Incident Database](https://incidentdatabase.ai/) - Database of AI-related incidents and harms.
 - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents, each linked to primary sources and flagged for whether a victim was confirmed.
+- [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) - Official text of the EU regulation setting risk-tiered obligations for AI systems, including human oversight, robustness, and transparency requirements.
 
 Agent incident checklist:
 
