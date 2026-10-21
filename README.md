@@ -118,6 +118,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Failproof](https://github.com/FailproofAI/failproofai) - Tracing and runtime policy enforcement for coding-agent harnesses such as Claude Code, Cursor, and GitHub Copilot.
 - [Agent Observatory](https://github.com/abhishekash/agent-observatory) - Local dashboard for inspecting coding-agent sessions, tool activity, MCP calls, traces, and host processes.
 - [LiteLLM Lens](https://docs.litellm.ai/docs/proxy/lens) - Agent trace analysis for LiteLLM Proxy that investigates failures across runs, groups recurring problems, and links findings to the original OpenTelemetry traces.
+- [OpenInference](https://github.com/Arize-ai/openinference) - OpenTelemetry instrumentation and span conventions for tracing LLM calls, tools, and agent frameworks.
 
 
 
