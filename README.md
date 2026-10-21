@@ -337,6 +337,7 @@ Operational concerns for multi-agent systems:
 - [OpenTelemetry Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/) - Shared conventions for telemetry data.
 - [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) - Span and attribute conventions for agent invocations, model calls, tool execution, and MCP requests.
 - [Agent2Agent (A2A) Protocol](https://a2a-protocol.org/) - Open protocol for agent discovery, task exchange, and communication between agents, with optionally signed Agent Cards.
+- [NIST AI Agent Standards Initiative](https://www.nist.gov/caisi/ai-agent-standards-initiative) - NIST CAISI programme coordinating standards, open protocols, and research on AI agent security, identity, and interoperability.
 
 ## Research and References
 
