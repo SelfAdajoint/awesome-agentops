@@ -164,6 +164,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner and red-teaming tool.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Testing and guardrails for agent behaviour and tool use.
 - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
+- [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Taxonomy of ten security risks specific to agentic systems, from goal hijack and tool misuse to memory poisoning and rogue agents.
 
 
 Operational topics to cover in production reviews:
