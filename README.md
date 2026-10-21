@@ -213,6 +213,7 @@ This section tracks cloud-native services that help teams build, deploy, monitor
 - [Microsoft Foundry Playgrounds](https://learn.microsoft.com/en-us/azure/foundry/concepts/concept-playgrounds) - Agent development environment with tracing and evaluation data for agent responses.
 - [Azure AI Agent Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns) - Architecture guidance for multi-agent orchestration patterns.
 - [Azure AI Agent Adoption Process](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/build-secure-process) - Organisational guidance for building agents consistently and securely.
+- [Microsoft Entra Agent ID](https://learn.microsoft.com/entra/agent-id/) - Identity platform for registering AI agents, issuing agent identities from blueprints, and applying access policies to them.
 
 Operational capabilities to track:
 
