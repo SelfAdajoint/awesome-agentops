@@ -348,6 +348,7 @@ Operational concerns for multi-agent systems:
 - [Identical Runs, Different Results](https://arxiv.org/abs/2609.33812) - Repeated-run study of coding agents on open-weight models showing that run-to-run variance can exceed differences between agent-model pairings, with guidance on run counts, compliance reporting, and cost comparison.
 - [MCP Error Messages Written for Developers Hurt the Most Capable Agents Most](https://arxiv.org/abs/2609.35381) - Survey of 3,001 error messages from 150 MCP servers and controlled experiments on how error text affects agent recovery from tool failures, with server-side and agent-side mitigations.
 - [ARIA: Runtime Inspection and Amendment for Multi-Agent Systems](https://arxiv.org/abs/2610.20780) - Trains a compact model on execution-verified repairs from multi-agent trajectories to detect when a running multi-agent system needs intervention and amend its continuation, with released code and framework hooks.
+- [Catching One in Five](https://arxiv.org/abs/2606.10315) - Production case study showing an LLM judge missed most human-confirmed multi-turn failures in a deployed transaction agent, with a taxonomy of what judges catch and miss.
 
 ## Contributing
 
