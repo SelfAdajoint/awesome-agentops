@@ -334,6 +334,7 @@ Operational concerns for multi-agent systems:
 - [AsyncAPI](https://www.asyncapi.com/) - Standard for event-driven API definitions.
 - [CloudEvents](https://cloudevents.io/) - Specification for event data interoperability.
 - [OpenTelemetry Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/) - Shared conventions for telemetry data.
+- [Agent2Agent (A2A) Protocol](https://a2a-protocol.org/) - Open protocol for agent discovery, task exchange, and communication between agents, with optionally signed Agent Cards.
 
 ## Research and References
 
