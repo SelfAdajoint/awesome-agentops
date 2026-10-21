@@ -164,6 +164,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner and red-teaming tool.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Testing and guardrails for agent behaviour and tool use.
 - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
+- [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
 
 
 Operational topics to cover in production reviews:
