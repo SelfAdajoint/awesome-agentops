@@ -118,6 +118,11 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Failproof](https://github.com/FailproofAI/failproofai) - Tracing and runtime policy enforcement for coding-agent harnesses such as Claude Code, Cursor, and GitHub Copilot.
 - [Agent Observatory](https://github.com/abhishekash/agent-observatory) - Local dashboard for inspecting coding-agent sessions, tool activity, MCP calls, traces, and host processes.
 - [LiteLLM Lens](https://docs.litellm.ai/docs/proxy/lens) - Agent trace analysis for LiteLLM Proxy that investigates failures across runs, groups recurring problems, and links findings to the original OpenTelemetry traces.
+- [MLflow Tracing](https://mlflow.org/docs/latest/genai/tracing/) - Open-source tracing for LLM and agent applications with OpenTelemetry ingestion, LLM-judge evaluation, and links to MLflow experiment lineage.
+- [OpenInference](https://github.com/Arize-ai/openinference) - OpenTelemetry instrumentation and span conventions for tracing LLM calls, tools, and agent frameworks.
+- [Pydantic Logfire](https://github.com/pydantic/logfire) - OpenTelemetry-based observability SDK and platform that renders GenAI, OpenInference, and OpenLLMetry agent spans alongside application telemetry.
+- [Datadog LLM Observability](https://docs.datadoghq.com/llm_observability/) - Tracing, evaluation, and cost monitoring for LLM and agent applications within Datadog, including OpenTelemetry GenAI span ingestion.
+- [Flowcept](https://github.com/ORNL/flowcept) - Provenance capture for scientific and agentic workflows that records prompts, model calls, and tool use as W3C PROV lineage via the PROV-AGENT model.
 
 
 
@@ -134,6 +139,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [LLMs Get Lost in Evolving User Intent](https://github.com/microsoft/evolving-intent) - Benchmark framework for testing whether agents track incrementally revealed, revised, and redirected user intent across multi-turn tasks.
 - [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Longitudinal evaluation and immutable evidence for agent runs: fresh-repository attempt isolation, deterministic and LLM-judge evaluation profiles, and hash-linked receipts, manifests, and provenance.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Benchmark for browser agents on everyday tasks across live websites, with isolated runs and multi-layer execution traces.
+- [Holistic Agent Leaderboard (HAL)](https://github.com/princeton-pli/hal-harness) - Harness for running agent benchmarks in parallel across local and cloud environments with cost tracking and log inspection.
 
 
 ## Replay and Debugging
@@ -154,6 +160,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Lakera Guard](https://www.lakera.ai/lakera-guard) - Runtime protection for LLM applications against prompt injection and unsafe content.
 - [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation) - Content safety models and moderation patterns.
 - [Speakeasy](https://www.speakeasy.com/product/ai-control-plane) - Control plane for policy enforcement, access control, and audit trails across AI agents, MCP servers, and tool calls.
+- [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Middleware that evaluates agent tool calls, resource access, and inter-agent messages against YAML, Rego, or Cedar policies before execution.
 
 ## Security, Identity, and Access Control
 
@@ -164,6 +171,8 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner and red-teaming tool.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Testing and guardrails for agent behaviour and tool use.
 - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
+- [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Taxonomy of ten security risks specific to agentic systems, from goal hijack and tool misuse to memory poisoning and rogue agents.
+- [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
 
 
 Operational topics to cover in production reviews:
@@ -213,6 +222,7 @@ This section tracks cloud-native services that help teams build, deploy, monitor
 - [Microsoft Foundry Playgrounds](https://learn.microsoft.com/en-us/azure/foundry/concepts/concept-playgrounds) - Agent development environment with tracing and evaluation data for agent responses.
 - [Azure AI Agent Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns) - Architecture guidance for multi-agent orchestration patterns.
 - [Azure AI Agent Adoption Process](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/build-secure-process) - Organisational guidance for building agents consistently and securely.
+- [Microsoft Entra Agent ID](https://learn.microsoft.com/entra/agent-id/) - Identity platform for registering AI agents, issuing agent identities from blueprints, and applying access policies to them.
 
 Operational capabilities to track:
 
@@ -302,6 +312,10 @@ Agent-specific signals worth tracking:
 - [NIST AI RMF Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) - Practical guide for applying the NIST AI Risk Management Framework.
 - [Partnership on AI: AI Incident Database](https://incidentdatabase.ai/) - Database of AI-related incidents and harms.
 - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents, each linked to primary sources and flagged for whether a victim was confirmed.
+- [IMDA Model AI Governance Framework for Agentic AI](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2026/updated-model-ai-governance-framework-for-agentic-ai) - Singapore's voluntary framework for bounding agent risk, human accountability, lifecycle technical controls, and agent audit trails.
+- [Agentic AI Risk-Management Standards Profile](https://cltc.berkeley.edu/agentic-ai-risk-management-standards-profile) - Berkeley CLTC profile extending the NIST AI RMF with risks and controls specific to autonomous and multi-agent systems.
+- [ISO/IEC 42001](https://www.iso.org/standard/81230.html) - International standard for establishing, auditing, and certifying an AI management system.
+- [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) - Official text of the EU regulation setting risk-tiered obligations for AI systems, including human oversight, robustness, and transparency requirements.
 
 Agent incident checklist:
 
@@ -318,6 +332,8 @@ Agent incident checklist:
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Framework for stateful, controllable agent workflows.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for building agents and AI orchestration into applications.
 - [OpenAI Swarm](https://github.com/openai/swarm) - Educational framework for lightweight multi-agent orchestration.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Framework for multi-agent workflows with handoffs, built-in tracing, and input, output, and tool guardrails.
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Typed Python agent framework with OpenTelemetry GenAI tracing of runs, model calls, and tools, plus a companion evaluation library.
 
 Operational concerns for multi-agent systems:
 
@@ -334,6 +350,9 @@ Operational concerns for multi-agent systems:
 - [AsyncAPI](https://www.asyncapi.com/) - Standard for event-driven API definitions.
 - [CloudEvents](https://cloudevents.io/) - Specification for event data interoperability.
 - [OpenTelemetry Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/) - Shared conventions for telemetry data.
+- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) - Span and attribute conventions for agent invocations, model calls, tool execution, and MCP requests.
+- [Agent2Agent (A2A) Protocol](https://a2a-protocol.org/) - Open protocol for agent discovery, task exchange, and communication between agents, with optionally signed Agent Cards.
+- [NIST AI Agent Standards Initiative](https://www.nist.gov/caisi/ai-agent-standards-initiative) - NIST CAISI programme coordinating standards, open protocols, and research on AI agent security, identity, and interoperability.
 
 ## Research and References
 
@@ -348,6 +367,7 @@ Operational concerns for multi-agent systems:
 - [Identical Runs, Different Results](https://arxiv.org/abs/2609.33812) - Repeated-run study of coding agents on open-weight models showing that run-to-run variance can exceed differences between agent-model pairings, with guidance on run counts, compliance reporting, and cost comparison.
 - [MCP Error Messages Written for Developers Hurt the Most Capable Agents Most](https://arxiv.org/abs/2609.35381) - Survey of 3,001 error messages from 150 MCP servers and controlled experiments on how error text affects agent recovery from tool failures, with server-side and agent-side mitigations.
 - [ARIA: Runtime Inspection and Amendment for Multi-Agent Systems](https://arxiv.org/abs/2610.20780) - Trains a compact model on execution-verified repairs from multi-agent trajectories to detect when a running multi-agent system needs intervention and amend its continuation, with released code and framework hooks.
+- [AgentOps: Enabling Observability of LLM Agents](https://arxiv.org/abs/2411.05285) - Taxonomy of the artefacts and data to trace across the lifecycle of LLM agents to support observability and AI safety.
 - [NovaFabric](https://arxiv.org/abs/2609.12582) - Signed, timestamped, Merkle-logged capsules for agent runs that support tamper detection, redaction attestation, and replay for third-party audit.
 
 ## Contributing
