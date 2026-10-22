@@ -118,6 +118,12 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Failproof](https://github.com/FailproofAI/failproofai) - Tracing and runtime policy enforcement for coding-agent harnesses such as Claude Code, Cursor, and GitHub Copilot.
 - [Agent Observatory](https://github.com/abhishekash/agent-observatory) - Local dashboard for inspecting coding-agent sessions, tool activity, MCP calls, traces, and host processes.
 - [LiteLLM Lens](https://docs.litellm.ai/docs/proxy/lens) - Agent trace analysis for LiteLLM Proxy that investigates failures across runs, groups recurring problems, and links findings to the original OpenTelemetry traces.
+- [MLflow Tracing](https://mlflow.org/docs/latest/genai/tracing/) - Open-source tracing for LLM and agent applications with OpenTelemetry ingestion, LLM-judge evaluation, and links to MLflow experiment lineage.
+- [OpenInference](https://github.com/Arize-ai/openinference) - OpenTelemetry instrumentation and span conventions for tracing LLM calls, tools, and agent frameworks.
+- [Pydantic Logfire](https://github.com/pydantic/logfire) - OpenTelemetry-based observability SDK and platform that renders GenAI, OpenInference, and OpenLLMetry agent spans alongside application telemetry.
+- [Datadog LLM Observability](https://docs.datadoghq.com/llm_observability/) - Tracing, evaluation, and cost monitoring for LLM and agent applications within Datadog, including OpenTelemetry GenAI span ingestion.
+- [Flowcept](https://github.com/ORNL/flowcept) - Provenance capture for scientific and agentic workflows that records prompts, model calls, and tool use as W3C PROV lineage via the PROV-AGENT model.
+- [Claude Agent SDK Observability](https://code.claude.com/docs/en/agent-sdk/observability) - OpenTelemetry export of traces, metrics, and events for Claude Agent SDK runs, including tool calls, hooks, and nested subagent spans.
 - [Flowlines](https://flowlines.ai/docs) - Hosted analytics for MCP and agent sessions, linking tool adoption, reported outcomes, and recurring failures to source sessions.
 
 
@@ -135,6 +141,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [LLMs Get Lost in Evolving User Intent](https://github.com/microsoft/evolving-intent) - Benchmark framework for testing whether agents track incrementally revealed, revised, and redirected user intent across multi-turn tasks.
 - [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Longitudinal evaluation and immutable evidence for agent runs: fresh-repository attempt isolation, deterministic and LLM-judge evaluation profiles, and hash-linked receipts, manifests, and provenance.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Benchmark for browser agents on everyday tasks across live websites, with isolated runs and multi-layer execution traces.
+- [Holistic Agent Leaderboard (HAL)](https://github.com/princeton-pli/hal-harness) - Harness for running agent benchmarks in parallel across local and cloud environments with cost tracking and log inspection.
 
 
 ## Replay and Debugging
@@ -144,6 +151,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Phoenix Tracing](https://docs.arize.com/phoenix/tracing) - OpenTelemetry-based tracing for LLM application debugging.
 - [Weave Tracing](https://docs.wandb.ai/weave) - Tracing and interactive debugging for model and agent workflows.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI and report generator for auditing AI coding-agent session logs, cost, tokens, latency, tool failures, health, and regression checks.
+- [Transect](https://github.com/AI-Safety-Institute/transect) - Transcript analysis for long-horizon agent evaluations that places events, token use, sub-agent activity, and LLM-judge behaviour labels on a turn-based timeline, with judge-disagreement flags and links back to the source transcript.
 
 ## Guardrails and Runtime Controls
 
@@ -154,6 +162,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Lakera Guard](https://www.lakera.ai/lakera-guard) - Runtime protection for LLM applications against prompt injection and unsafe content.
 - [OpenAI Moderation](https://developers.openai.com/api/docs/guides/moderation) - Content safety models and moderation patterns.
 - [Speakeasy](https://www.speakeasy.com/product/ai-control-plane) - Control plane for policy enforcement, access control, and audit trails across AI agents, MCP servers, and tool calls.
+- [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) - Middleware that evaluates agent tool calls, resource access, and inter-agent messages against YAML, Rego, or Cedar policies before execution.
 
 ## Security, Identity, and Access Control
 
@@ -164,6 +173,8 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner and red-teaming tool.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Testing and guardrails for agent behaviour and tool use.
 - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
+- [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Taxonomy of ten security risks specific to agentic systems, from goal hijack and tool misuse to memory poisoning and rogue agents.
+- [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
 
 
 Operational topics to cover in production reviews:
@@ -213,6 +224,7 @@ This section tracks cloud-native services that help teams build, deploy, monitor
 - [Microsoft Foundry Playgrounds](https://learn.microsoft.com/en-us/azure/foundry/concepts/concept-playgrounds) - Agent development environment with tracing and evaluation data for agent responses.
 - [Azure AI Agent Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns) - Architecture guidance for multi-agent orchestration patterns.
 - [Azure AI Agent Adoption Process](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ai-agents/build-secure-process) - Organisational guidance for building agents consistently and securely.
+- [Microsoft Entra Agent ID](https://learn.microsoft.com/entra/agent-id/) - Identity platform for registering AI agents, issuing agent identities from blueprints, and applying access policies to them.
 
 Operational capabilities to track:
 
@@ -302,6 +314,10 @@ Agent-specific signals worth tracking:
 - [NIST AI RMF Playbook](https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook) - Practical guide for applying the NIST AI Risk Management Framework.
 - [Partnership on AI: AI Incident Database](https://incidentdatabase.ai/) - Database of AI-related incidents and harms.
 - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents, each linked to primary sources and flagged for whether a victim was confirmed.
+- [IMDA Model AI Governance Framework for Agentic AI](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2026/updated-model-ai-governance-framework-for-agentic-ai) - Singapore's voluntary framework for bounding agent risk, human accountability, lifecycle technical controls, and agent audit trails.
+- [Agentic AI Risk-Management Standards Profile](https://cltc.berkeley.edu/agentic-ai-risk-management-standards-profile) - Berkeley CLTC profile extending the NIST AI RMF with risks and controls specific to autonomous and multi-agent systems.
+- [ISO/IEC 42001](https://www.iso.org/standard/81230.html) - International standard for establishing, auditing, and certifying an AI management system.
+- [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) - Official text of the EU regulation setting risk-tiered obligations for AI systems, including human oversight, robustness, and transparency requirements.
 
 Agent incident checklist:
 
@@ -318,6 +334,9 @@ Agent incident checklist:
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Framework for stateful, controllable agent workflows.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for building agents and AI orchestration into applications.
 - [OpenAI Swarm](https://github.com/openai/swarm) - Educational framework for lightweight multi-agent orchestration.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Framework for multi-agent workflows with handoffs, built-in tracing, and input, output, and tool guardrails.
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Typed Python agent framework with OpenTelemetry GenAI tracing of runs, model calls, and tools, plus a companion evaluation library.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Python and .NET framework for agents and multi-agent workflows, successor to AutoGen and Semantic Kernel, with built-in OpenTelemetry GenAI telemetry.
 
 Operational concerns for multi-agent systems:
 
@@ -334,6 +353,9 @@ Operational concerns for multi-agent systems:
 - [AsyncAPI](https://www.asyncapi.com/) - Standard for event-driven API definitions.
 - [CloudEvents](https://cloudevents.io/) - Specification for event data interoperability.
 - [OpenTelemetry Semantic Conventions](https://opentelemetry.io/docs/specs/semconv/) - Shared conventions for telemetry data.
+- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) - Span and attribute conventions for agent invocations, model calls, tool execution, and MCP requests.
+- [Agent2Agent (A2A) Protocol](https://a2a-protocol.org/) - Open protocol for agent discovery, task exchange, and communication between agents, with optionally signed Agent Cards.
+- [NIST AI Agent Standards Initiative](https://www.nist.gov/caisi/ai-agent-standards-initiative) - NIST CAISI programme coordinating standards, open protocols, and research on AI agent security, identity, and interoperability.
 
 ## Research and References
 
@@ -347,6 +369,29 @@ Operational concerns for multi-agent systems:
 - [MemTrapBench](https://arxiv.org/abs/2608.20202) - Benchmark for cognitive traps in LLM memory use, showing that accurately retrieved memories can still induce reasoning fixation and belief distortion that degrade task performance, paired with AdaptiveMem, an inference-time method that checks whether retrieved memories apply before use.
 - [Identical Runs, Different Results](https://arxiv.org/abs/2609.33812) - Repeated-run study of coding agents on open-weight models showing that run-to-run variance can exceed differences between agent-model pairings, with guidance on run counts, compliance reporting, and cost comparison.
 - [MCP Error Messages Written for Developers Hurt the Most Capable Agents Most](https://arxiv.org/abs/2609.35381) - Survey of 3,001 error messages from 150 MCP servers and controlled experiments on how error text affects agent recovery from tool failures, with server-side and agent-side mitigations.
+- [ARIA: Runtime Inspection and Amendment for Multi-Agent Systems](https://arxiv.org/abs/2610.20780) - Trains a compact model on execution-verified repairs from multi-agent trajectories to detect when a running multi-agent system needs intervention and amend its continuation, with released code and framework hooks.
+- [AgentOps: Enabling Observability of LLM Agents](https://arxiv.org/abs/2411.05285) - Taxonomy of the artefacts and data to trace across the lifecycle of LLM agents to support observability and AI safety.
+- [Which Agent Causes Task Failures and When? (Who&When)](https://arxiv.org/abs/2505.00212) - Benchmark and study of automatically attributing multi-agent system failures to a responsible agent and step.
+- [AgenTracer](https://arxiv.org/abs/2509.03312) - Counterfactual-replay pipeline and lightweight trained model for attributing failures in multi-agent trajectories, with diagnoses usable as feedback for system improvement.
+- [BabelJudge](https://arxiv.org/abs/2606.22329) - Label-free reliability audit for LLM judges that applies controlled perturbations to responses and agent trajectories to measure bias and blind spots.
+- [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) - Taxonomy of multi-agent system failure modes (MAST) derived from annotated execution traces across popular frameworks.
+- [Seeing the Whole Elephant](https://arxiv.org/abs/2604.22708) - Benchmark with full execution traces and reproducible environments showing that output-only logs substantially limit multi-agent failure attribution.
+- [trajectory-judge](https://arxiv.org/abs/2609.00038) - Fault-injection testbed and study showing outcome-only LLM judges miss silent trajectory faults, with a paired-discrimination protocol for validating step-level judges.
+- [FAMAS](https://arxiv.org/abs/2509.13782) - Spectrum-based method that replays failed multi-agent tasks and ranks the agent actions most likely responsible for the failure.
+- [Who&When Pro](https://arxiv.org/abs/2607.09996) - Benchmark of 12,326 failure-injected agent trajectories across frameworks and modalities for evaluating automated root-cause attribution.
+- [LongRCA Bench](https://arxiv.org/abs/2608.15242) - Benchmark of human-annotated long-horizon agent failures for evaluating responsible-role and earliest root-cause step attribution.
+- [Reliability without Validity](https://arxiv.org/abs/2606.19544) - Large-scale evaluation of LLM-as-a-judge models showing that high test-retest consistency can coexist with position bias, with a minimum validation protocol.
+- [MobileJudgeBench](https://arxiv.org/abs/2608.11434) - Benchmark of human-annotated mobile-agent trajectories for comparing LLM-judge methods and backbones used to evaluate GUI agents.
+- [Catching One in Five](https://arxiv.org/abs/2606.10315) - Production case study showing an LLM judge missed most human-confirmed multi-turn failures in a deployed transaction agent, with a taxonomy of what judges catch and miss.
+- [Harness-Bench](https://arxiv.org/abs/2605.27922) - Benchmark that varies agent harnesses across model backends on fixed tasks to measure how much the scaffold changes agent results.
+- [Reasoning Provenance for Autonomous AI Agents](https://arxiv.org/abs/2603.21692) - Proposes the Agent Execution Record for capturing per-step intent, evidence, plan revisions, and delegation chains at execution time for audit and cross-run analysis.
+- [From Agent Traces to Trust](https://arxiv.org/abs/2606.04990) - Survey of execution provenance and evidence tracing for LLM agents, covering trace sources, provenance relations, tool-use provenance, and trace-based failure diagnosis.
+- [NovaFabric](https://arxiv.org/abs/2609.12582) - Signed, timestamped, Merkle-logged capsules for agent runs that support tamper detection, redaction attestation, and replay for third-party audit.
+- [A Trace-Based Assurance Framework for Agentic AI Orchestration](https://arxiv.org/abs/2603.18096) - Contracts over agent message-action traces that localise the first violating step, combined with perturbation-based stress testing and runtime capability enforcement.
+- [Runtime Governance for AI Agents: Policies on Paths](https://arxiv.org/abs/2603.16586) - Formal framework for runtime policies that score the probability of violation from an agent's identity, execution path so far, and proposed next action.
+- [Governance Gaps in Agent Interoperability Protocols](https://arxiv.org/abs/2606.31498) - Gap analysis of MCP, A2A, ACP, and other agent protocols against governance requirements such as human escalation, dissent preservation, and audit replay.
+- [Your Agent May Misevolve](https://arxiv.org/abs/2509.26354) - Study of safety degradation in self-evolving agents across model, memory, tool, and workflow pathways, with deployment recommendations for auditing, validating, and rolling back self-modifications.
+- [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
 
 ## Contributing
 
