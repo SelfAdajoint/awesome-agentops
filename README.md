@@ -385,6 +385,7 @@ Operational concerns for multi-agent systems:
 - [Harness-Bench](https://arxiv.org/abs/2605.27922) - Benchmark that varies agent harnesses across model backends on fixed tasks to measure how much the scaffold changes agent results.
 - [Reasoning Provenance for Autonomous AI Agents](https://arxiv.org/abs/2603.21692) - Proposes the Agent Execution Record for capturing per-step intent, evidence, plan revisions, and delegation chains at execution time for audit and cross-run analysis.
 - [From Agent Traces to Trust](https://arxiv.org/abs/2606.04990) - Survey of execution provenance and evidence tracing for LLM agents, covering trace sources, provenance relations, tool-use provenance, and trace-based failure diagnosis.
+- [NovaFabric](https://arxiv.org/abs/2609.12582) - Signed, timestamped, Merkle-logged capsules for agent runs that support tamper detection, redaction attestation, and replay for third-party audit.
 - [Governance Gaps in Agent Interoperability Protocols](https://arxiv.org/abs/2606.31498) - Gap analysis of MCP, A2A, ACP, and other agent protocols against governance requirements such as human escalation, dissent preservation, and audit replay.
 
 ## Contributing
