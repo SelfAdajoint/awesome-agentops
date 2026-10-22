@@ -335,6 +335,7 @@ Agent incident checklist:
 - [OpenAI Swarm](https://github.com/openai/swarm) - Educational framework for lightweight multi-agent orchestration.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Framework for multi-agent workflows with handoffs, built-in tracing, and input, output, and tool guardrails.
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Typed Python agent framework with OpenTelemetry GenAI tracing of runs, model calls, and tools, plus a companion evaluation library.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Python and .NET framework for agents and multi-agent workflows, successor to AutoGen and Semantic Kernel, with built-in OpenTelemetry GenAI telemetry.
 
 Operational concerns for multi-agent systems:
 
