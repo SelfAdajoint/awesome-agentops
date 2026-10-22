@@ -123,6 +123,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Pydantic Logfire](https://github.com/pydantic/logfire) - OpenTelemetry-based observability SDK and platform that renders GenAI, OpenInference, and OpenLLMetry agent spans alongside application telemetry.
 - [Datadog LLM Observability](https://docs.datadoghq.com/llm_observability/) - Tracing, evaluation, and cost monitoring for LLM and agent applications within Datadog, including OpenTelemetry GenAI span ingestion.
 - [Flowcept](https://github.com/ORNL/flowcept) - Provenance capture for scientific and agentic workflows that records prompts, model calls, and tool use as W3C PROV lineage via the PROV-AGENT model.
+- [Claude Agent SDK Observability](https://code.claude.com/docs/en/agent-sdk/observability) - OpenTelemetry export of traces, metrics, and events for Claude Agent SDK runs, including tool calls, hooks, and nested subagent spans.
 
 
 
@@ -334,6 +335,7 @@ Agent incident checklist:
 - [OpenAI Swarm](https://github.com/openai/swarm) - Educational framework for lightweight multi-agent orchestration.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Framework for multi-agent workflows with handoffs, built-in tracing, and input, output, and tool guardrails.
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Typed Python agent framework with OpenTelemetry GenAI tracing of runs, model calls, and tools, plus a companion evaluation library.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Python and .NET framework for agents and multi-agent workflows, successor to AutoGen and Semantic Kernel, with built-in OpenTelemetry GenAI telemetry.
 
 Operational concerns for multi-agent systems:
 
@@ -371,6 +373,7 @@ Operational concerns for multi-agent systems:
 - [Which Agent Causes Task Failures and When? (Who&When)](https://arxiv.org/abs/2505.00212) - Benchmark and study of automatically attributing multi-agent system failures to a responsible agent and step.
 - [AgenTracer](https://arxiv.org/abs/2509.03312) - Counterfactual-replay pipeline and lightweight trained model for attributing failures in multi-agent trajectories, with diagnoses usable as feedback for system improvement.
 - [BabelJudge](https://arxiv.org/abs/2606.22329) - Label-free reliability audit for LLM judges that applies controlled perturbations to responses and agent trajectories to measure bias and blind spots.
+- [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) - Taxonomy of multi-agent system failure modes (MAST) derived from annotated execution traces across popular frameworks.
 - [Runtime Governance for AI Agents: Policies on Paths](https://arxiv.org/abs/2603.16586) - Formal framework for runtime policies that score the probability of violation from an agent's identity, execution path so far, and proposed next action.
 
 ## Contributing
