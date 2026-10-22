@@ -124,6 +124,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Datadog LLM Observability](https://docs.datadoghq.com/llm_observability/) - Tracing, evaluation, and cost monitoring for LLM and agent applications within Datadog, including OpenTelemetry GenAI span ingestion.
 - [Flowcept](https://github.com/ORNL/flowcept) - Provenance capture for scientific and agentic workflows that records prompts, model calls, and tool use as W3C PROV lineage via the PROV-AGENT model.
 - [Claude Agent SDK Observability](https://code.claude.com/docs/en/agent-sdk/observability) - OpenTelemetry export of traces, metrics, and events for Claude Agent SDK runs, including tool calls, hooks, and nested subagent spans.
+- [Flowlines](https://flowlines.ai/) - Hosted analytics for MCP servers and agent sessions that links tool adoption, reported outcomes, and recurring failures to the source sessions.
 
 
 
@@ -141,6 +142,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Longitudinal evaluation and immutable evidence for agent runs: fresh-repository attempt isolation, deterministic and LLM-judge evaluation profiles, and hash-linked receipts, manifests, and provenance.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Benchmark for browser agents on everyday tasks across live websites, with isolated runs and multi-layer execution traces.
 - [Holistic Agent Leaderboard (HAL)](https://github.com/princeton-pli/hal-harness) - Harness for running agent benchmarks in parallel across local and cloud environments with cost tracking and log inspection.
+- [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) - Benchmark for multi-agent orchestration prompts that tests whether a model gives each sub-agent the context it needs without omissions or cross-role leakage.
 
 
 ## Replay and Debugging
@@ -174,6 +176,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
 - [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Taxonomy of ten security risks specific to agentic systems, from goal hijack and tool misuse to memory poisoning and rogue agents.
 - [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
+- [Aident Loadout](https://docs.aident.ai/loadout/overview) - Remote MCP server and CLI that brokers agent access to connected apps from a credential vault and records each action in an audit log.
 
 
 Operational topics to cover in production reviews:
