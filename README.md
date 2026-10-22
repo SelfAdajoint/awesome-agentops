@@ -376,6 +376,7 @@ Operational concerns for multi-agent systems:
 - [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) - Taxonomy of multi-agent system failure modes (MAST) derived from annotated execution traces across popular frameworks.
 - [Seeing the Whole Elephant](https://arxiv.org/abs/2604.22708) - Benchmark with full execution traces and reproducible environments showing that output-only logs substantially limit multi-agent failure attribution.
 - [trajectory-judge](https://arxiv.org/abs/2609.00038) - Fault-injection testbed and study showing outcome-only LLM judges miss silent trajectory faults, with a paired-discrimination protocol for validating step-level judges.
+- [FAMAS](https://arxiv.org/abs/2509.13782) - Spectrum-based method that replays failed multi-agent tasks and ranks the agent actions most likely responsible for the failure.
 - [Catching One in Five](https://arxiv.org/abs/2606.10315) - Production case study showing an LLM judge missed most human-confirmed multi-turn failures in a deployed transaction agent, with a taxonomy of what judges catch and miss.
 
 ## Contributing
