@@ -375,6 +375,7 @@ Operational concerns for multi-agent systems:
 - [BabelJudge](https://arxiv.org/abs/2606.22329) - Label-free reliability audit for LLM judges that applies controlled perturbations to responses and agent trajectories to measure bias and blind spots.
 - [Why Do Multi-Agent LLM Systems Fail?](https://arxiv.org/abs/2503.13657) - Taxonomy of multi-agent system failure modes (MAST) derived from annotated execution traces across popular frameworks.
 - [Seeing the Whole Elephant](https://arxiv.org/abs/2604.22708) - Benchmark with full execution traces and reproducible environments showing that output-only logs substantially limit multi-agent failure attribution.
+- [trajectory-judge](https://arxiv.org/abs/2609.00038) - Fault-injection testbed and study showing outcome-only LLM judges miss silent trajectory faults, with a paired-discrimination protocol for validating step-level judges.
 - [Governance Gaps in Agent Interoperability Protocols](https://arxiv.org/abs/2606.31498) - Gap analysis of MCP, A2A, ACP, and other agent protocols against governance requirements such as human escalation, dissent preservation, and audit replay.
 
 ## Contributing
