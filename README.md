@@ -328,6 +328,7 @@ Agent incident checklist:
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Framework for stateful, controllable agent workflows.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for building agents and AI orchestration into applications.
 - [OpenAI Swarm](https://github.com/openai/swarm) - Educational framework for lightweight multi-agent orchestration.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Framework for multi-agent workflows with handoffs, built-in tracing, and input, output, and tool guardrails.
 
 Operational concerns for multi-agent systems:
 
