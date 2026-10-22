@@ -124,7 +124,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [Datadog LLM Observability](https://docs.datadoghq.com/llm_observability/) - Tracing, evaluation, and cost monitoring for LLM and agent applications within Datadog, including OpenTelemetry GenAI span ingestion.
 - [Flowcept](https://github.com/ORNL/flowcept) - Provenance capture for scientific and agentic workflows that records prompts, model calls, and tool use as W3C PROV lineage via the PROV-AGENT model.
 - [Claude Agent SDK Observability](https://code.claude.com/docs/en/agent-sdk/observability) - OpenTelemetry export of traces, metrics, and events for Claude Agent SDK runs, including tool calls, hooks, and nested subagent spans.
-- [Flowlines](https://flowlines.ai/docs) - Hosted analytics for MCP and agent sessions, linking tool adoption, reported outcomes, and recurring failures to source sessions.
+- [Flowlines](https://flowlines.ai/) - Hosted analytics for MCP servers and agent sessions that links tool adoption, reported outcomes, and recurring failures to the source sessions.
 
 
 
