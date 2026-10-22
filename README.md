@@ -395,6 +395,7 @@ Operational concerns for multi-agent systems:
 - [Governance Gaps in Agent Interoperability Protocols](https://arxiv.org/abs/2606.31498) - Gap analysis of MCP, A2A, ACP, and other agent protocols against governance requirements such as human escalation, dissent preservation, and audit replay.
 - [Your Agent May Misevolve](https://arxiv.org/abs/2509.26354) - Study of safety degradation in self-evolving agents across model, memory, tool, and workflow pathways, with deployment recommendations for auditing, validating, and rolling back self-modifications.
 - [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
+- [Back Up Before You Regret](https://arxiv.org/abs/2610.28934) - Introduces RegretBench, showing that coding agents rarely back up state before changing it, and BackUpper, a harness plug-in that cheaply saves affected state beforehand.
 
 ## Contributing
 
