@@ -377,6 +377,7 @@ Operational concerns for multi-agent systems:
 - [Seeing the Whole Elephant](https://arxiv.org/abs/2604.22708) - Benchmark with full execution traces and reproducible environments showing that output-only logs substantially limit multi-agent failure attribution.
 - [trajectory-judge](https://arxiv.org/abs/2609.00038) - Fault-injection testbed and study showing outcome-only LLM judges miss silent trajectory faults, with a paired-discrimination protocol for validating step-level judges.
 - [FAMAS](https://arxiv.org/abs/2509.13782) - Spectrum-based method that replays failed multi-agent tasks and ranks the agent actions most likely responsible for the failure.
+- [Who&When Pro](https://arxiv.org/abs/2607.09996) - Benchmark of 12,326 failure-injected agent trajectories across frameworks and modalities for evaluating automated root-cause attribution.
 - [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
 
 ## Contributing
