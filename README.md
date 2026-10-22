@@ -383,6 +383,7 @@ Operational concerns for multi-agent systems:
 - [MobileJudgeBench](https://arxiv.org/abs/2608.11434) - Benchmark of human-annotated mobile-agent trajectories for comparing LLM-judge methods and backbones used to evaluate GUI agents.
 - [Catching One in Five](https://arxiv.org/abs/2606.10315) - Production case study showing an LLM judge missed most human-confirmed multi-turn failures in a deployed transaction agent, with a taxonomy of what judges catch and miss.
 - [Harness-Bench](https://arxiv.org/abs/2605.27922) - Benchmark that varies agent harnesses across model backends on fixed tasks to measure how much the scaffold changes agent results.
+- [Reasoning Provenance for Autonomous AI Agents](https://arxiv.org/abs/2603.21692) - Proposes the Agent Execution Record for capturing per-step intent, evidence, plan revisions, and delegation chains at execution time for audit and cross-run analysis.
 - [Your Agent May Misevolve](https://arxiv.org/abs/2509.26354) - Study of safety degradation in self-evolving agents across model, memory, tool, and workflow pathways, with deployment recommendations for auditing, validating, and rolling back self-modifications.
 
 ## Contributing
