@@ -305,6 +305,7 @@ Agent-specific signals worth tracking:
 - [Partnership on AI: AI Incident Database](https://incidentdatabase.ai/) - Database of AI-related incidents and harms.
 - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents, each linked to primary sources and flagged for whether a victim was confirmed.
 - [IMDA Model AI Governance Framework for Agentic AI](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2026/updated-model-ai-governance-framework-for-agentic-ai) - Singapore's voluntary framework for bounding agent risk, human accountability, lifecycle technical controls, and agent audit trails.
+- [Agentic AI Risk-Management Standards Profile](https://cltc.berkeley.edu/agentic-ai-risk-management-standards-profile) - Berkeley CLTC profile extending the NIST AI RMF with risks and controls specific to autonomous and multi-agent systems.
 - [ISO/IEC 42001](https://www.iso.org/standard/81230.html) - International standard for establishing, auditing, and certifying an AI management system.
 
 Agent incident checklist:
