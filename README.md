@@ -194,7 +194,7 @@ Operational topics to cover in production reviews:
 - [Hatchet](https://github.com/hatchet-dev/hatchet) - Distributed task queue and workflow engine.
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - Human approval workflows for AI agents and tool calls.
 - [Tenet](https://www.trytenet.com/) - Approval gates, cost caps, credential mediation, and audit logs for AI agent tool calls.
-- [LedgerGuard](https://github.com/Val1-IT/Arvanta-Ledgerguard) - Deterministic policy, human approval bound to a plan version, and execution keys so a retried agent write to Postgres doesn't run twice (pre-1.0).
+- [LedgerGuard](https://github.com/Val1-IT/Arvanta-Ledgerguard) - Policy checks and human approval bound to a plan version for agent-proposed Postgres writes, with execution keys that stop a retried write from running twice.
 
 Useful approval patterns:
 
