@@ -174,7 +174,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit (`npm i affixio`) with host-side signed ACTION attestation / KYA for agent pay flows (x402BeforePay; not person KYC). ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/))
 - [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Taxonomy of ten security risks specific to agentic systems, from goal hijack and tool misuse to memory poisoning and rogue agents.
 - [NCCoE Software and AI Agent Identity and Authorization](https://www.nccoe.nist.gov/projects/software-and-ai-agent-identity-and-authorization) - NIST project and concept paper on applying OAuth, OpenID Connect, and SPIFFE to AI agent identity, delegation, and authorisation.
-- [Aident Loadout](https://docs.aident.ai/loadout/overview) - Remote MCP server and CLI that brokers agent access to connected apps from a credential vault, so agents receive connection status rather than passwords or API keys, and records each action's status, source, and cost in an audit log. ([Vault and Audit docs](https://docs.aident.ai/loadout/vault-and-audit))
+- [Aident Loadout](https://docs.aident.ai/loadout/overview) - Remote MCP server and CLI that brokers agent access to connected apps from a credential vault and records each action in an audit log.
 
 
 Operational topics to cover in production reviews:
