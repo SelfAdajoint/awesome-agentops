@@ -369,6 +369,7 @@ Operational concerns for multi-agent systems:
 - [ARIA: Runtime Inspection and Amendment for Multi-Agent Systems](https://arxiv.org/abs/2610.20780) - Trains a compact model on execution-verified repairs from multi-agent trajectories to detect when a running multi-agent system needs intervention and amend its continuation, with released code and framework hooks.
 - [AgentOps: Enabling Observability of LLM Agents](https://arxiv.org/abs/2411.05285) - Taxonomy of the artefacts and data to trace across the lifecycle of LLM agents to support observability and AI safety.
 - [Which Agent Causes Task Failures and When? (Who&When)](https://arxiv.org/abs/2505.00212) - Benchmark and study of automatically attributing multi-agent system failures to a responsible agent and step.
+- [AgenTracer](https://arxiv.org/abs/2509.03312) - Counterfactual-replay pipeline and lightweight trained model for attributing failures in multi-agent trajectories, with diagnoses usable as feedback for system improvement.
 - [Reasoning Provenance for Autonomous AI Agents](https://arxiv.org/abs/2603.21692) - Proposes the Agent Execution Record for capturing per-step intent, evidence, plan revisions, and delegation chains at execution time for audit and cross-run analysis.
 
 ## Contributing
