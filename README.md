@@ -307,6 +307,7 @@ Agent-specific signals worth tracking:
 - [IMDA Model AI Governance Framework for Agentic AI](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/factsheets/2026/updated-model-ai-governance-framework-for-agentic-ai) - Singapore's voluntary framework for bounding agent risk, human accountability, lifecycle technical controls, and agent audit trails.
 - [Agentic AI Risk-Management Standards Profile](https://cltc.berkeley.edu/agentic-ai-risk-management-standards-profile) - Berkeley CLTC profile extending the NIST AI RMF with risks and controls specific to autonomous and multi-agent systems.
 - [ISO/IEC 42001](https://www.iso.org/standard/81230.html) - International standard for establishing, auditing, and certifying an AI management system.
+- [EU AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj) - Official text of the EU regulation setting risk-tiered obligations for AI systems, including human oversight, robustness, and transparency requirements.
 
 Agent incident checklist:
 
