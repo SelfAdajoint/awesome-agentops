@@ -138,6 +138,7 @@ AgentOps keeps agent behaviour observable, evaluable, constrained, and governabl
 - [LLMs Get Lost in Evolving User Intent](https://github.com/microsoft/evolving-intent) - Benchmark framework for testing whether agents track incrementally revealed, revised, and redirected user intent across multi-turn tasks.
 - [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark) - Longitudinal evaluation and immutable evidence for agent runs: fresh-repository attempt isolation, deterministic and LLM-judge evaluation profiles, and hash-linked receipts, manifests, and provenance.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Benchmark for browser agents on everyday tasks across live websites, with isolated runs and multi-layer execution traces.
+- [Holistic Agent Leaderboard (HAL)](https://github.com/princeton-pli/hal-harness) - Harness for running agent benchmarks in parallel across local and cloud environments with cost tracking and log inspection.
 
 
 ## Replay and Debugging
