@@ -370,6 +370,7 @@ Operational concerns for multi-agent systems:
 - [AgentOps: Enabling Observability of LLM Agents](https://arxiv.org/abs/2411.05285) - Taxonomy of the artefacts and data to trace across the lifecycle of LLM agents to support observability and AI safety.
 - [Which Agent Causes Task Failures and When? (Who&When)](https://arxiv.org/abs/2505.00212) - Benchmark and study of automatically attributing multi-agent system failures to a responsible agent and step.
 - [AgenTracer](https://arxiv.org/abs/2509.03312) - Counterfactual-replay pipeline and lightweight trained model for attributing failures in multi-agent trajectories, with diagnoses usable as feedback for system improvement.
+- [BabelJudge](https://arxiv.org/abs/2606.22329) - Label-free reliability audit for LLM judges that applies controlled perturbations to responses and agent trajectories to measure bias and blind spots.
 - [trajectory-judge](https://arxiv.org/abs/2609.00038) - Fault-injection testbed and study showing outcome-only LLM judges miss silent trajectory faults, with a paired-discrimination protocol for validating step-level judges.
 
 ## Contributing
