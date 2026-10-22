@@ -382,6 +382,7 @@ Operational concerns for multi-agent systems:
 - [Reliability without Validity](https://arxiv.org/abs/2606.19544) - Large-scale evaluation of LLM-as-a-judge models showing that high test-retest consistency can coexist with position bias, with a minimum validation protocol.
 - [MobileJudgeBench](https://arxiv.org/abs/2608.11434) - Benchmark of human-annotated mobile-agent trajectories for comparing LLM-judge methods and backbones used to evaluate GUI agents.
 - [Catching One in Five](https://arxiv.org/abs/2606.10315) - Production case study showing an LLM judge missed most human-confirmed multi-turn failures in a deployed transaction agent, with a taxonomy of what judges catch and miss.
+- [Harness-Bench](https://arxiv.org/abs/2605.27922) - Benchmark that varies agent harnesses across model backends on fixed tasks to measure how much the scaffold changes agent results.
 - [Governance Gaps in Agent Interoperability Protocols](https://arxiv.org/abs/2606.31498) - Gap analysis of MCP, A2A, ACP, and other agent protocols against governance requirements such as human escalation, dissent preservation, and audit replay.
 
 ## Contributing
