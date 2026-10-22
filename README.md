@@ -381,6 +381,7 @@ Operational concerns for multi-agent systems:
 - [LongRCA Bench](https://arxiv.org/abs/2608.15242) - Benchmark of human-annotated long-horizon agent failures for evaluating responsible-role and earliest root-cause step attribution.
 - [Reliability without Validity](https://arxiv.org/abs/2606.19544) - Large-scale evaluation of LLM-as-a-judge models showing that high test-retest consistency can coexist with position bias, with a minimum validation protocol.
 - [MobileJudgeBench](https://arxiv.org/abs/2608.11434) - Benchmark of human-annotated mobile-agent trajectories for comparing LLM-judge methods and backbones used to evaluate GUI agents.
+- [Catching One in Five](https://arxiv.org/abs/2606.10315) - Production case study showing an LLM judge missed most human-confirmed multi-turn failures in a deployed transaction agent, with a taxonomy of what judges catch and miss.
 - [A Trace-Based Assurance Framework for Agentic AI Orchestration](https://arxiv.org/abs/2603.18096) - Contracts over agent message-action traces that localise the first violating step, combined with perturbation-based stress testing and runtime capability enforcement.
 
 ## Contributing
