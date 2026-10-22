@@ -389,6 +389,7 @@ Operational concerns for multi-agent systems:
 - [A Trace-Based Assurance Framework for Agentic AI Orchestration](https://arxiv.org/abs/2603.18096) - Contracts over agent message-action traces that localise the first violating step, combined with perturbation-based stress testing and runtime capability enforcement.
 - [Runtime Governance for AI Agents: Policies on Paths](https://arxiv.org/abs/2603.16586) - Formal framework for runtime policies that score the probability of violation from an agent's identity, execution path so far, and proposed next action.
 - [Governance Gaps in Agent Interoperability Protocols](https://arxiv.org/abs/2606.31498) - Gap analysis of MCP, A2A, ACP, and other agent protocols against governance requirements such as human escalation, dissent preservation, and audit replay.
+- [Your Agent May Misevolve](https://arxiv.org/abs/2509.26354) - Study of safety degradation in self-evolving agents across model, memory, tool, and workflow pathways, with deployment recommendations for auditing, validating, and rolling back self-modifications.
 - [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
 
 ## Contributing
