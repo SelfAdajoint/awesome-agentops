@@ -380,6 +380,7 @@ Operational concerns for multi-agent systems:
 - [Who&When Pro](https://arxiv.org/abs/2607.09996) - Benchmark of 12,326 failure-injected agent trajectories across frameworks and modalities for evaluating automated root-cause attribution.
 - [LongRCA Bench](https://arxiv.org/abs/2608.15242) - Benchmark of human-annotated long-horizon agent failures for evaluating responsible-role and earliest root-cause step attribution.
 - [Reliability without Validity](https://arxiv.org/abs/2606.19544) - Large-scale evaluation of LLM-as-a-judge models showing that high test-retest consistency can coexist with position bias, with a minimum validation protocol.
+- [MobileJudgeBench](https://arxiv.org/abs/2608.11434) - Benchmark of human-annotated mobile-agent trajectories for comparing LLM-judge methods and backbones used to evaluate GUI agents.
 - [Safety in Self-Evolving Agents: A Survey](https://arxiv.org/abs/2610.00093) - Survey and SAVER framework for how self-modified memory, skills, tools, and workflows create safety failures, with containment, repair, and descendant-aware rollback responses.
 
 ## Contributing
